@@ -6,6 +6,6 @@ import App from './App';
 
 import Hello from './components/hello.js';
 
-ReactDOM.render(<Hello />, document.getElementById('root'));
+ReactDOM.render(<Hello name="Boris" />, document.getElementById('root'));
 // registerServiceWorker();
 
